@@ -1,0 +1,14 @@
+---
+title: "Week 3 Quiz"
+output: html_document
+---
+
+
+## Question 1: There will be an object called 'iris' in your workspace. In this dataset, what is the mean of 'Sepal.Length' for the species virginica?
+
+```{r}
+library(datasets)
+data(iris)
+iris.set1 <- subset(iris,Species=="virginica") 
+iris.set1
+```
